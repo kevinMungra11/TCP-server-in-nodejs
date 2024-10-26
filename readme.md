@@ -1,3 +1,7 @@
+# TCP Server in Node.js
+
+This repository contains a basic implementation of a TCP server in Node.js, using raw TCP sockets without any HTTP-specific protocols or libraries. The server accepts client connections on a specified IP and port, receives data from clients, and responds based on specified conditions.
+
 ## How the Server Works
 
 1. **Server Binding**: The server binds to a specific IP and port, enabling it to listen for incoming connections.
